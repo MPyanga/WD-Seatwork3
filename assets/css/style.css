@@ -1,0 +1,61 @@
+*{
+}
+body {
+background-image: url('../img/forest.jpg');
+background-size: cover;
+}
+    .Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(180, 178, 178);
+}
+
+.seymour-one-regular {
+    
+}
+
+.Container > h1  {
+    font-weight: 200 ;
+    font-size: 7rem;
+    font-family: "Titan One", sans-serif;
+    font-style: normal;
+    margin-bottom: 30px;
+    color: rgb(218, 215, 215);
+    
+}
+.Container > h3  {
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(180, 178, 178);
+    
+}
+.Container > p {
+    margin-top: 0;
+    margin-bottom: 6rem;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(184, 253, 184);
+    word-spacing: 5px;
+}
+
+.Container > nav {
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.Button {
+    background-color:;
+    padding: 15px 80px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: green;
+    font-weight: 900;
+    border-color: palegreen;
+    border-width: 7px;
+    cursor: pointer;
+}
