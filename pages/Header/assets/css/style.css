@@ -145,6 +145,7 @@ body {
     position: relative; 
     overflow: hidden;
     margin-top: 30px;
+    justify-content: space-between;
 
    & > .nav1 {
         display: flex;
@@ -187,6 +188,7 @@ body {
         & > .nav2 {
             display: flex;
             margin-left: 4rem;
+            margin-right: 1rem;
             gap: 1rem;
     
         &  > a {
@@ -810,7 +812,7 @@ body {
     
 .header2-static {
         display: flex;
-        align-items: center; /* Center contents vertically */
+        align-items: center;
         height: 15vh;
         background: radial-gradient(circle, rgba(69,69,70,1) 0%, rgba(31,29,30,1) 100%);
         width: 100%;
@@ -864,7 +866,7 @@ body {
                 background: linear-gradient(#872cdd,#872cdd) padding-box,linear-gradient(225deg, rgb(86, 220, 230), #d9d5dd)border-box;
                 font-weight: 700;
                 border-radius: 15px;
-                margin-right: 20px;
+                margin-right: 1rem;
         }
             }
         }
@@ -974,6 +976,7 @@ body {
     color: black;
     margin-top: 30px;
     position: relative; 
+    justify-content: space-between;
 
    & > .nav1 {
         display: flex;
@@ -1023,6 +1026,7 @@ body {
     background-color: none;
     border-left: 1px solid white;
     padding: 30px 30px;
+    margin-right: 20px;
 }
 
 
