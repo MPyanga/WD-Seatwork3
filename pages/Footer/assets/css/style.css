@@ -1,0 +1,81 @@
+body {
+    background-color: black!important;
+    height: 200vh;
+}
+
+.main-header {
+    background-color: rgb(197, 190, 190);
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 5px solid rgb(116, 114, 114);
+    color: rgb(116, 114, 114);
+    z-index: 1000;
+
+    & > h2 {
+        font-family: "Titan One", sans-serif;
+    }
+
+    & > nav {
+        font-weight: 400;
+    }
+}
+
+.breadcrumb-item > a {
+        color: black;
+}
+
+.animation-title{
+    margin-top: 120px;
+    text-align: center;
+
+    & > h1 {
+        font-family: "Titan One", sans-serif;
+        color: white;
+    }
+}
+
+footer {
+    display: flex;
+    height: 30vh;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    
+  & > .container{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+
+       & > .social-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: green;
+            border-radius: 10rem;
+            width: 50px;
+            height: 50px;    
+        }
+    }
+
+    & > .links {
+        display: flex;
+        gap: 20px;
+
+         & > a {
+            text-decoration: none;
+            color: gray;
+         }
+    }
+
+    
+}
