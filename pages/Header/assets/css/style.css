@@ -494,7 +494,6 @@ body {
 & > .fa-bars{
     color: white;
     display: flex;
-    margin-left: 30px;
     font-size:20px;
     background-color: none;
     border-left: 1px solid white;
@@ -976,7 +975,6 @@ body {
     color: black;
     margin-top: 30px;
     position: relative; 
-    justify-content: space-between;
 
    & > .nav1 {
         display: flex;
@@ -1026,7 +1024,6 @@ body {
     background-color: none;
     border-left: 1px solid white;
     padding: 30px 30px;
-    margin-right: 20px;
 }
 
 
