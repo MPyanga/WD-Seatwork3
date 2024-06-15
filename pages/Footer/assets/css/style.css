@@ -628,7 +628,11 @@ body {
             & > img {
                 width: 15rem;
                 height: 15rem; 
-            }                     
+            }     
+            & > h3{
+                color: rgb(250, 45, 79);
+                font-family: "Titan One", sans-serif;
+            }                
             }
         }
     }
