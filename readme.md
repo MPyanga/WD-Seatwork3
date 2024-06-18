@@ -77,14 +77,13 @@ A coding practice of Header and Footer while applying my knowledge in Html and C
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-Seatwork3
 └─ assets
 |   └─ css
 |   |   └─ style.css
 |   └─ img
 |   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
+|  
 └─ pages
 |  └─ Header
 |     └─ assets
